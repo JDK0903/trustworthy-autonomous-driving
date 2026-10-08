@@ -1,0 +1,10 @@
+# All relative paths are resolved against the repository root.
+dataset_root: ../dataset
+subset_root: data/raw/cityscapes_subset
+manifest: data/manifests/subset.csv
+output_dir: outputs
+seed: 42
+subset_counts:
+  train: 400
+  val: 100
+preview_count: 20

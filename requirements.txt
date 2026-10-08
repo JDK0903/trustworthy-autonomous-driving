@@ -1,0 +1,11 @@
+# Install GPU packages separately from the official CUDA index first (see README).
+torch==2.10.0+cu128
+torchvision==0.25.0+cu128
+numpy
+pandas
+Pillow
+matplotlib
+scikit-learn
+PyYAML
+pytest
+pypdf
